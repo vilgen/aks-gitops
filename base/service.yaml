@@ -4,7 +4,7 @@ metadata:
   name: aks-service-helloworld-svc
 spec:
   selector:
-    app: aks-service-helloworld
+    app: aks-service-helloworld-pod
   ports:
     - protocol: TCP
       port: 80
