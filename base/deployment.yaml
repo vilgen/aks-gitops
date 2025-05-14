@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: fastapi
-          image: ewpacrregistry.azurecr.io/aks-service-helloworld:a403c6ff2d6fe0eac8ba8a56507ff8f91333fb65
+          image: ewpacrregistry.azurecr.io/aks-service-helloworld:e5cddaa68f77f5a4a5151d18345e999a43bb8763
           ports:
             - containerPort: 80
