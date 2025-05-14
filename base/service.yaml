@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: faks-service-helloworld-svc
+  name: aks-service-helloworld-svc
 spec:
   selector:
     app: aks-service-helloworld
